@@ -12,7 +12,7 @@ This is a simple command-line web crawler that downloads images from a specified
 First, clone the repository to your local machine. If you haven't done so already:
 
 ```sh
-git clone https://github.com/your-repository/web-image-crawler.git
+git clone https://github.com/rahul22kar/web-image-crawler.git
 cd web-image-crawler
 ```
 
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 Run the crawler by providing the start URL and depth as command-line arguments:
 
 ```sh
-python crawler.py <start_url> <depth>
+python main.py <start_url> <depth>
 ```
 
 - `<start_url>`: The URL where the crawling starts.
@@ -64,7 +64,7 @@ python crawler.py <start_url> <depth>
 To start crawling from `https://example.com` with a depth of 2:
 
 ```sh
-python crawler.py https://example.com 2
+python main.py https://example.com 2
 ```
 
 ## Output
